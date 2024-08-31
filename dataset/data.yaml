@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bike', 'bus', 'car', 'truck']
+
+roboflow:
+  workspace: koustavs-workspace
+  project: summer-internship
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koustavs-workspace/summer-internship/dataset/5
